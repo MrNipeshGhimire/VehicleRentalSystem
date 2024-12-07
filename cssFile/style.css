@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    font-family: sans-serif;
+}
+/*--==============topHeader.php==========================--*/
+.container-0{
+    width:100%;
+    height:14vh; 
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.container-0-nav{
+    width:25%;
+    height:14.5vh;
+  /*  border: 1px solid red;  */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+}
+/*  =====For Logo============*/
+.container-0-nav-content-0{
+      position:relative;
+      right:50px;
+       height:70px;
+       width:70px;
+}
+.container-0-nav .logo{
+    padding-right: 15px;
+    
+}
+#container-0-nav-id{
+  
+   position:relative;
+   display: flex;
+   flex-direction: row;
+}
+#container-0-nav-id button {
+    font-size: 1.4rem;
+    padding:6px 10px;
+  border-radius: 8px;
+  margin: 0px 3px;
+}
+#active1 {
+    background-color: #fff;
+    border:1px solid black;
+}
+#active1 a{
+    color:#fa7901;  
+}
+#active1:hover{
+    background-color: #fa7901;
+   
+}
+#active1 a:hover{
+    color:#fff;
+}
+/*
+.btn{
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#F77D0A;
+    width:160px;
+    padding:12px;
+    border-radius: 8px;
+ }
+ .btn a{
+    color:#fff;
+ }
+ .btn:hover{
+     background-color:#4b3f34;
+ }
+ */
+ 
+/*.container-0-nav .btn{ 
+    height:5.5vh;
+    width:21vh;
+    border-radius: 4px;
+    background-color: rgb(233, 162, 10);
+ }
+ .btn a{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    color:#fff;
+    font-weight:700;
+    
+ }
+ a.active,  a:hover{
+    background-color: rgb(255, 174, 0);
+    transition: 0.5s;
+ }
+ */
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    z-index: 2;
+    position: absolute;
+   /* position: fixed;    */
+}
+
+/*======logo text========Yaatra======*/
+.logo-text{
+    margin-left: 30px;
+    display: flex;
+    height:2cm;
+    width:5cm;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.logo-text h1{
+    position:relative;
+    font-size:2.5rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h1-color{
+    color:red;
+}
+/*  icon====*/
+.icon i{
+    font-size: 24px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 36px;
+    
+}
+nav ul li a{
+    color:#fff;
+    font-size: 1.2rem;
+   text-transform: uppercase;  
+    padding: 0px 14px;
+    border-radius: 3px;
+    font-weight:600;
+}
+nav ul li a:hover{
+      color:#fa7901;
+      transition: 0.5s;
+}
+.icon{
+    height:5vh;
+    width:5vh;
+}
+/*a.active, a:hover{
+    background: #36383a;   
+    transition: 0.5s;     
+}  */
+/*============Sub menu navigatioin========================*/
+.sub-menu1{
+    display: none;
+}
+nav ul li:hover .sub-menu1
+{
+    display: block;
+    position: absolute;
+   /* background: #2d3135;  */
+    /*margin-top:15px;   */
+    /*margin-left: 4px; */
+}
+nav ul li:hover .sub-menu1 ul{
+    display: flex;
+    flex-direction:column;
+    margin:1px;
+    position: relative;
+    right:20px;
+    width:200px;
+    background-color: #a19d9d;
+    
+}
+nav ul li:hover .sub-menu1 ul li{  
+   /* border-bottom: 1px dotted #fff; */
+    border-radius: 0;
+    text-align: left;
+   
+}
+
+nav ul li:hover .sub-menu1 ul li a{
+    font-size: 1.2rem;
+    text-transform: lowercase;
+}
+#user-profile-show-bar{
+    color:#fff;
+    border:2px solid #fa7901;
+    display: flex;
+    padding:8px 10px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+   
+}
+
+/*===================container 2==========Find the best vehicle for you=========*/
+.container-find_best_vehicle_for_u{
+    width:100%;
+    background-color: #fff;
+    
+}
+
+.container-sub h2{  
+    text-transform:capitalize;
+    width: max-content;
+    font-size: 5vh;
+    position:relative;
+    cursor: pointer; 
+    margin: 1px auto;
+    padding-bottom: 30px;
+   
+}
+
+#container-sub-sub{
+    font-weight: 500;
+}
+.container-sub-head{
+   
+    padding: 3px 85px;
+}
+.container-sub-head p{
+    color:#222121;
+    font-size: 18px;
+}
+
+
+/*==============Vehicle list ===================*/
+.vehicle-head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding:  2rem 3rem;
+}
+.vehicle-head p{
+    padding:0.5rem 1rem;
+    background-color: rgb(255, 115, 0);
+    border-radius: 10px;
+    color:#fff;
+    font-weight: 700;
+}
+.vehicle-head p:hover{
+    background-color:rgb(150, 68, 2);
+    transition: 0.5s;
+}
+.container-sub-vehicle{
+    padding:3rem 5rem;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*----------======vehicle box=======---------------*/
+/*====================================================*/
+.vehicle-box-container {
+    border: 1px solid rgb(230, 220, 220);
+    width: 28%;
+    font-family: sans-serif;
+    border-radius: 3px;
+    z-index: 999;
+    margin-bottom: 20px;
+    box-shadow:2px 3px 2px 2px rgb(238, 234, 234);
+    transition: background-color 0.5s, transform 0.5s;
+}
+.vehicle-box-container:hover{
+    transform: translateY(-10px);
+}
+.vehicle-box-img-field img{
+    border:1px solid #cecaca;
+}
+.vehicle-info-box h2,h3{
+    text-align: center;
+    color:#F77D0A;
+    padding:2px 0px;
+}
+.vehicle-info-box-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.vehicle-info-box-item{
+    display: flex;
+    padding:5px 8px;
+}
+.vehicle-info-box-item p{
+   font-size: 16px;
+   font-weight: 600;
+   padding-left: 2px;
+}
+#item-color{
+    color:#F77D0A;
+}
+.vehicle-box-button-container{
+    border:1px solid #f5efef;
+    background-color: #f1f0f0;
+    padding:4px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vehicle-box-button-container button{
+    font-size: 16px;
+    color:#000;
+    padding:5px 8px;
+    border: 2px solid #000;
+    cursor:pointer;
+    border-radius: 4px;
+    
+}
+
+/*========================Container for subscriber and user info===========*/
+/*=======================circle shaped====================================*/
+.container-info-show{
+    width:100%;
+    height:50vh;
+    background-color: #ca894c;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url("image/img.jpg");    
+   /* background-image: url("peakpx.jpg");  */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.container-info-show-sub{
+    width:15%;
+    height:29vh;
+    background-color: #fa2837;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.container-info-show-sub p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#fff;
+}
+.container-info-show-sub h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+   /* color:#F77D0A;  */
+   color:#fff;
+    position: relative;
+    bottom: 10px;
+}

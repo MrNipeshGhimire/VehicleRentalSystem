@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contactus-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 999;
+}
+
+.contactus-container-leftside {
+    width: 50%;
+    padding: 55px 30px;
+}
+
+.leftside-head {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+}
+
+.leftside-form-content {
+    
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    margin-top: 14px;
+    margin-left: 20px;
+    background-color: rgba(182, 175, 175, 0.5);
+    border: 1px solid rgb(216, 206, 206);
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.leftside-form-content-sub {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.leftside-form-content-sub label {
+    font-size: bold;
+    font-weight: 500;
+}
+
+.leftside-form-content-sub input {
+    margin-top:7px;
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    font-size: 1.2rem;
+    z-index: 999;
+}
+
+#messageBox {
+    height: 114px;
+}
+
+.contactus-container-rightside {
+    width: 50%;
+    height: 80vh;
+}
+
+.btn-p {
+    background-color:#dd6c02;
+    color:#fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 580;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+  
+}
+
+.btn-p:hover {
+    background-color: #7a726a;
+    transition: 0.5s;
+}
+
+.btn i {
+    font-size: 20px;
+}
+
+/*=========Contact info====================*/
+.rightside-head {
+    width: 60%;
+    height: 50%;
+    position: relative;
+    top: 60px;
+    left: 1cm;
+}
+
+.rightside-contact-content div {
+    display: flex;
+    padding: 10px;
+}
+
+.rightside-contact-content div i {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.rightside-contact-content div p {
+    font-size: 20px;
+    text-align:justify;
+}
+
+.rightside-head h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#required{
+   color:red;
+}

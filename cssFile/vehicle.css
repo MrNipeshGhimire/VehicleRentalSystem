@@ -1,0 +1,139 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+.car-list{
+  width:87%;
+  /*height:50vh;   */
+  display: flex;
+  margin-top: 12vh;
+  margin-bottom: 6vh;
+  margin-left:15vh;
+  margin-right: 10vh;
+  
+}
+.car-list-left{
+  display: flex;
+  flex-direction: column;
+  width:30%;
+  /*border:1px solid #b8b0b0;  */
+  border-radius: 4px;
+  padding:0px 12px;
+}
+.car-title{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top:20px;
+  border: 2px solid #b8b0b0;
+  padding:10px;
+}
+.car-title h2{
+  font-weight: 700;
+}
+.car-title i{
+  padding-right: 5px;
+  color:red;
+  font-size: large;
+}
+.car-image-info{
+  display: flex;
+  position:relative;
+  top:45px;
+  padding:10px;
+  background-color: #b8b0b0;
+  border: 1px solid #c7bbbb;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.car-image-info img{
+  width:110px;
+  height:auto;
+  border: 0.5px solid rgb(124, 111, 111);
+  border-radius: 4px;
+}
+.car-image-info div p{
+  padding: 5px 10px;
+  position: relative;
+  font-size: 2.5vh;
+
+}
+#font-p{
+  font-weight: 600;
+}
+/*===================================
+    vehicle right side (vehicle ko detail haru xa)
+=======================================================*/
+.car-list-right{
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  margin:3vh;
+}    
+.car-list-right .listing-head{
+       width:100%;
+       height:6vh;
+       background-color: rgb(189, 189, 199);
+       border:1px solid #e0d8d8;
+       border-radius: 3px;
+       position: relative;
+       bottom: 2.5vh;
+}
+.car-list-right .listing-head p{
+  font-size: 25px;
+  font-weight:600;
+  text-align: center;
+  position:relative;
+  top:5px;
+  color:#646262;
+}
+.car-list-right .listing-car-item{
+  display: flex;
+  padding-bottom: 10px;
+}
+.listing-car-item div img{
+  width:280px;
+  height:158px;
+  border:1px solid #cfbfbf;
+
+}
+.listing-car-item #vehicle-detail{
+     width:70%;
+     height:158px;
+     background-color: rgb(189, 189, 199);
+     padding:15px;
+}
+#vehicle-detail div p{
+  font-size:18px;
+  color:#4d4b4b;
+  padding-bottom: 4px;
+}
+#vehicle-detail div #p{
+  font-weight: 600;
+  color:#000;
+}
+.vehicle-detail-sub{
+  display: flex;
+  justify-content:first baseline;
+  align-items: center;
+}
+.vehicle-detail-sub div{
+  padding-top:5px;
+  padding-right: 30px;
+}
+.vehicle-detail-sub div i{
+   padding-right: 8px;
+   color:#4d4b4b;
+}
+.vehicle-detail-sub div{
+  display: flex;
+}
+.vehicle-listing-btn{
+    position:relative;
+    top:10px;
+}
+
+.btn i{
+  color:#fff;
+}
